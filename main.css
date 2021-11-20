@@ -16,7 +16,7 @@ html, body {
 }
 .wrapper {
     overflow: hidden;
-    min-width: 1460px;
+    min-width: 1440px;
     background-color: navajowhite;
 }
 .container {
@@ -511,6 +511,7 @@ ul > li {
 .socials__link {
     width: 38px;
     height: 38px;
+    display: block;
 }
 .socials__link:hover .socials__icon{
     fill: var(--red);
